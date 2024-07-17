@@ -56,4 +56,3 @@ Space complexity: O(n), we need to create a new array to store the original arra
 
 ## 延伸討論
 Space Complexity: O(1) 的解法, 可以預先開一個足夠大的陣列來放 copy 的值, 這樣對於輸入來說, 會是 O(1) 的空間複雜度, 或是直接在原本的陣列上進行位移, 這樣也是 O(1) 的空間複雜度。
-```golang
